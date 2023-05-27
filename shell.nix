@@ -6,5 +6,6 @@ stdenv.mkDerivation {
   buildInputs = [
     gleam
     erlang
+    rebar3
   ];
 }
